@@ -1,0 +1,165 @@
+                                                                                              
+/*                                                                                              
+                                           CCCCCCCCCCCCC   SSSSSSSSSSSSSSS    SSSSSSSSSSSSSSS 
+                                        CCC::::::::::::C SS:::::::::::::::S SS:::::::::::::::S
+                                      CC:::::::::::::::CS:::::SSSSSS::::::SS:::::SSSSSS::::::S
+                                     C:::::CCCCCCCC::::CS:::::S     SSSSSSSS:::::S     SSSSSSS
+                                    C:::::C       CCCCCCS:::::S            S:::::S            
+                                   C:::::C              S:::::S            S:::::S            
+                                   C:::::C               S::::SSSS          S::::SSSS         
+                                   C:::::C                SS::::::SSSSS      SS::::::SSSSS    
+                                   C:::::C                  SSS::::::::SS      SSS::::::::SS  
+                                   C:::::C                     SSSSSS::::S        SSSSSS::::S 
+                                   C:::::C                          S:::::S            S:::::S
+                                    C:::::C       CCCCCC            S:::::S            S:::::S
+                                     C:::::CCCCCCCC::::CSSSSSSS     S:::::SSSSSSSS     S:::::S
+                                      CC:::::::::::::::CS::::::SSSSSS:::::SS::::::SSSSSS:::::S
+                                        CCC::::::::::::CS:::::::::::::::SS S:::::::::::::::SS 
+                                           CCCCCCCCCCCCC SSSSSSSSSSSSSSS    SSSSSSSSSSSSSSS   
+/*                                                                                              
+                                                                                                                                                                                                                                                               
+/*||======================||
+  ||     Body Styling     ||
+  ||======================||*/
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;}
+
+
+
+/*||======================||
+  ||   Header Styling     ||
+  ||======================||*/
+header {
+  background-color: lightseagreen;
+padding: 10px;}
+
+/*||======================||
+  ||    Nav Bar Styling   ||
+  ||======================||*
+
+/* Container resets + background */
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    clear: both;
+    background-color: teal;}
+/* Horizontal menu items */
+.navbar li {
+    float: left;
+    width: 33.33%;}
+/* Links inside the items */
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;}
+/* Hover effect */
+.navbar li a:hover {
+    background-color: #111;}
+
+/*||======================||
+  ||  Main Area Styling   ||
+  ||======================||*/
+
+main {
+  flex: 1;}
+
+/*+-----------------+
+  |Two Column Layout|
+  +-----------------+*/
+
+.article {
+  flex: 70%;
+  background-color: seashell;
+  padding: 20px;
+  box-sizing: border-box;}
+  
+.sidebar {
+  flex: 30%;
+  background-color: rgb(255, 237, 226);
+  box-sizing: border-box;
+  padding: 20px;}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;}
+
+@media screen and (max-width: 700px) {
+  .row  {   
+    flex-direction: column;}}
+
+
+/*||======================||
+  ||  RMIT Logo Styling   ||
+  ||======================||*/
+.rmitlogo {
+  float: right;
+  width: 200px;
+  height: auto;
+  padding-top: 20px;
+  padding-right: 20px;}
+
+/*||======================||
+  ||    Footer Styling    ||
+  ||======================||*/
+footer {
+  background-color: teal;
+  color: white;
+  padding: 10px 0;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  clear: both;}
+
+/*||===============================||
+  || Textfield Styling for Message || 
+  ||===============================||*/
+.textfield{
+  width: 500px;
+  height: 200px;
+}
+
+/*||======================||
+  ||Image Gallery Styling ||
+  ||======================||*/
+div.gallary {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:flex-start} 
+  div.gallary-item{
+  margin: 5px;
+  padding: 10px;
+  width: 300px;}
+div.gallary-item img {
+  width: 100%;
+  height: auto;}
+div.gallary-item div.desc {
+ padding: 10px;
+ text-align: center;} 
+
+ @media only screen and (max-width: 700px) {
+  div.gallery-item {
+    width: 45%;}}
+@media only screen and (max-width: 500px) {
+  div.gallery-item {
+    width: 100%;}}
+
+
+div.photoofme {
+  float: right;}
+div.photoofme img {
+  width: 700px;
+  height: auto;}
+div.photoofme .desc{
+  text-align: center;}
