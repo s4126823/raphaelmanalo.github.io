@@ -155,7 +155,9 @@ div.gallary-item div.desc {
   div.gallery-item {
     width: 100%;}}
 
-
+/*||==========================================||
+  || Formatting for photo of my partner and I ||
+  ||==========================================||*/
 div.photoofme {
   float: right;}
 div.photoofme img {
@@ -163,3 +165,14 @@ div.photoofme img {
   height: auto;}
 div.photoofme .desc{
   text-align: center;}
+
+
+
+
+
+  iframe {
+    float: right;
+    width: 600px;
+    height: auto;
+    border: none;
+  }
