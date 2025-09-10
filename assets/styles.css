@@ -87,7 +87,7 @@ main {
 .sidebar {
   flex: 30%;
   color: white;
-  background-color: grey;
+  background-color: black;
   box-sizing: border-box;
   padding: 20px;}
 
