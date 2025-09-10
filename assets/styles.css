@@ -79,14 +79,14 @@ main {
 
 .article {
   flex: 70%;
-  color: white;
-  background-color: black;
+  color: black;
+  background-color: rgb(192, 235, 233);
   padding: 20px;
   box-sizing: border-box;}
   
 .sidebar {
   flex: 30%;
-  color: white;
+  color: black;
   background-color: rgb(192, 235, 233);
   box-sizing: border-box;
   padding: 20px;}
