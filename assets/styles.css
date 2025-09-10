@@ -35,6 +35,7 @@ body {
   ||   Header Styling     ||
   ||======================||*/
 header {
+  color: black;
   background-color: lightseagreen;
 padding: 10px;}
 
@@ -86,7 +87,7 @@ main {
 .sidebar {
   flex: 30%;
   color: white;
-  background-color: darkslategrey;
+  background-color: grey;
   box-sizing: border-box;
   padding: 20px;}
 
