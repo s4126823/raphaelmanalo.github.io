@@ -23,7 +23,6 @@
   ||======================||*/
 body {
     font-family: Arial, sans-serif;
-    color: white;
     margin: 0;
     padding: 0;
     min-height: 100vh;
@@ -79,12 +78,14 @@ main {
 
 .article {
   flex: 70%;
+  color: white;
   background-color: black;
   padding: 20px;
   box-sizing: border-box;}
   
 .sidebar {
   flex: 30%;
+  color: white;
   background-color: darkslategrey;
   box-sizing: border-box;
   padding: 20px;}
